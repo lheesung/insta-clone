@@ -29,12 +29,19 @@ git commit -m 'DELETE: 사용하지 않는 태그 삭제'
 - 스타일링은 [styled-components](https://styled-components.com/)를 사용합니다.[(사용방법)](https://github.com/WoongCourse/clone/blob/main/src/docs/styled_components.md)
 
 ### 파일구조 및 파일 네이밍 규칙
+파일의 구성은 다음과 같은 방식으로 합니다.
 ```bash
 ├── public
 ├── src
 │   ├── docs
 │   ├── components
+│       └── componentName
+│         ├── index.jsx
+│         └── componentName.style.jsx
 │   └── pages
+│     └── pageName
+│       ├── index.jsx
+│       └── pageName.style.jsx
 └──
 ``` 
-<span style='color: #aaa'>*docs 내의 내용은 수정하지 않습니다.</span>
+*docs 내의 내용은 수정하지 않습니다.
