@@ -1,6 +1,6 @@
 # 웅이야 프론트엔드 과제 - [인스타그램](https://www.instagram.com/) 클론코딩
 📆 기한: 08월 16일 23시 59분 까지
-
+🏆 주제: 인스타그램 메인 페이지 클론코딩
 ### 깃허브
 - 위 레포지토리를 **포크하여 포크된 레포지토리를 클론하여 개발**합니다.
 - 커밋은 기한동안 주기적으로 이루어져야 합니다.
@@ -25,9 +25,9 @@ git commit -m 'DELETE: 사용하지 않는 태그 삭제'
 - package manager는 [yarn](https://yarnpkg.com/)을 사용합니다.
   + [yarn 윈도우 세팅](https://velog.io/@nxnaxx/React-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-yarn%EA%B3%BC-CRA-%EC%84%A4%EC%B9%98)
   + [yarn 맥 세팅](https://velog.io/@seoyaon/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
-- 스타일링은 [styled-components](https://styled-components.com/)를 사용합니다.
+- 스타일링은 [styled-components](https://styled-components.com/)를 사용합니다.[(사용방법)](https://github.com/WoongCourse/clone/blob/main/src/docs/styled_components.md)
 
-### 파일구조
+### 파일구조 및 파일 네이밍 규칙
 ```bash
 ├── public
 ├── src
