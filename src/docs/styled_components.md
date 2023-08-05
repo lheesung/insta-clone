@@ -45,6 +45,15 @@ function App() {
 }
 ```
 
+## 중첩 스타일링
+```ts
+export const Container = styled.div`
+    background-color: red;
+    h2{
+        color: yellow;
+    }
+`
+```
 
 ## 프롭스 사용하기
 ```jsx
@@ -60,8 +69,8 @@ const Component =()=> {
 }
 ```
 
-```jsx
-const Container = styled.div`
+```ts
+export const Container = styled.div`
   width: ${props => props.width || '100%'};
   background-color: ${props => props.backgroundColor || 'white'};
 `;
